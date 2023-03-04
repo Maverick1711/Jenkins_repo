@@ -54,7 +54,7 @@ variable "igw-cidr-block" {
 }
 
 
-variable "instance" {
+variable "ami_name" {
      type = string
      description = "server configuration"
      default = "ami-0f540e9f488cfa27d"
@@ -63,7 +63,7 @@ variable "instance" {
 
 
 
-variable "ami_name" {
+variable "instance" {
      type = string
      description = "operating system"
      default = "t2.micro"
