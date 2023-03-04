@@ -151,7 +151,7 @@ resource "aws_security_group" "Terra-sec-group" {
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
-    cidr_blocks      = ["86.152.213.108/32"]
+    cidr_blocks      = ["86.131.16.149/32"]
   }
 
 
