@@ -57,7 +57,7 @@ variable "igw-cidr-block" {
 variable "ami_name" {
      type = string
      description = "server configuration"
-     default = "ami-0f540e9f488cfa27d"
+     default = "ami-070393be7e6332605"
 
 }     
 
